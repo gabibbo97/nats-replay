@@ -1,0 +1,8 @@
+{
+    "nats_address": "nats://localhost",
+    "stream_name": "TEST",
+    "mode": "replay",
+    "dest_address": "127.0.0.1:3001",
+    "deliver_policy": "all",
+    "replay_policy": "original"
+}

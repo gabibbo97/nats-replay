@@ -1,0 +1,8 @@
+{
+    "nats_address": "nats://localhost",
+    "stream_name": "TEST",
+    "mode": "record",
+    "bind_address": "127.0.0.1:3000",
+    "flush_stream": true,
+    "publish_dummy_data": true
+}
