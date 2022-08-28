@@ -18,7 +18,7 @@ The configuration file is a JSON file
 
 - **nats_address**: URL of the NATS broker (example: `nats://localhost`)
 - **stream_name**: Stream name on the NATS broker
-- **mode**: Which mode to run the program: `record` or `replay`
+- **mode**: Which mode to run the program: `info`, `record`, or `replay`
 
 ### Record mode
 
@@ -47,3 +47,7 @@ In this mode the system will replay packets from the stream.
 - **bind_address**: where to bind the sending socket (default: `0.0.0.0:0`)
 - **send_address**: where to send the received packets
 - **sock_broadcast**: sets `SO_BROADCAST` on the socket
+
+### Info mode
+
+In this mode the system will show data for a given stream

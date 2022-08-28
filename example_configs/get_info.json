@@ -1,0 +1,5 @@
+{
+    "nats_address": "nats://localhost",
+    "stream_name": "TEST",
+    "mode": "info"
+}

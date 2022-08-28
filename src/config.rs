@@ -13,6 +13,8 @@ pub struct Config {
 #[derive(Debug, Deserialize)]
 #[serde(tag = "mode")]
 pub enum OperationMode {
+    #[serde(rename = "info")]
+    Info,
     #[serde(rename = "record")]
     Record {
         /// Bind address of the UDP socket
